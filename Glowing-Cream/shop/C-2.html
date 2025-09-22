@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog - The new trend</title>
+  <base href="/assets/"> 
+  <!-- link se { /vally99/ } htana hai -->
 
   <!-- 
     - favicon
@@ -15,7 +17,7 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- 
     - google font link
@@ -27,7 +29,7 @@
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="images/logo.png">
   <link rel="preload" as="image" href="">
   <link rel="preload" as="image" href="">
   <link rel="preload" as="image" href="">
@@ -42,7 +44,7 @@
 
   <header class="header">
 
-
+   
     </div>
 
     <div class="header-top" data-header>
@@ -63,7 +65,7 @@
         </div>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+          <img src="images/logo.png" width="179" height="26" alt="Glowing">
         </a>
 
         <div class="header-actions">
@@ -179,163 +181,55 @@
       <!-- 
         - #HERO
       -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+   <hr>
 
-      <section class="section hero" id="home" aria-label="hero" data-section>
-        <div class="container">
-
-          <ul class="has-scrollbar">
-
-            <li class="scrollbar-item">
-              <div class="hero-card has-bg-image"
-                style="background-image: url('https://images.pexels.com/photos/164572/pexels-photo-164572.jpeg')">
-
-                <div class="card-content">
-
-                  <h1 class="h1 hero-title">
-                    <br>
-
-                  </h1>
-
-                  <p class="hero-text">
-
-                  </p>
-
-                  <p class="price"></p>
-
-                  <a href="#" class="btn btn-primary">See More</a>
-
-                </div>
-
+  <section class="collection" aria-label="collection" data-section>
+    <div class="collection-by">
+      <ul class="collection-by-last">
+        <li class="by-card">
+          <!-- Left Background Image -->
+          <div class="by-card-left"style="background-image: url('images/collection-2.jpg');">
+            <div class="left-bg">
+              <div class="left-content">
+                <h2>What's New</h2>
+                <p>Get the glow</p>
               </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="hero-card has-bg-image"
-                style="background-image: url('https://images.pexels.com/photos/30021947/pexels-photo-30021947.jpeg')">
-
-                <div class="card-content">
-
-                  <h1 class="h1 hero-title">
-                    Reveal The <br>
-                    Beauty of Skin
-                  </h1>
-
-                  <p class="hero-text">
-                    Made using clean, non-toxic ingredients, our products are designed for everyone.
-                  </p>
-
-                  <p class="price">Starting at $7.99</p>
-
-                  <a href="#" class="btn btn-primary">Shop Now</a>
-
-                </div>
-
+              <div class="lect-content im">
+                <a href="#"><img class="img1" src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="icon" /></a>
               </div>
-            </li>
+            </div>
+          </div>
 
-            <li class="scrollbar-item">
-              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/hero-banner-3.jpg')">
-
-                <div class="card-content">
-
-                  <h1 class="h1 hero-title">
-                    Reveal The <br>
-                    Beauty of Skin
-                  </h1>
-
-                  <p class="hero-text">
-                    Made using clean, non-toxic ingredients, our products are designed for everyone.
-                  </p>
-
-                  <p class="price">Starting at $7.99</p>
-
-                  <a href="#" class="btn btn-primary">Shop Now</a>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
+          <!-- Right Form -->
 
 
-      <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+          <div class="by-card-right">
+            <form class="form">
+              <h2 class="f">Glowing skincream</h2>
+              <p class="f">This product is designed to improve skin radiance or health.</p>
+              <p class="f" style="color:#3f3d3d">Starting at $18.99.</p>
+              <input class="f" type="text" placeholder="Name" />
+              <input class="f" type="tel" placeholder="Number" />
+              <input class="f" type="email" placeholder="Email" />
+              <textarea class="Address" type="text" placeholder="Address"></textarea>
+              <input class="f" type="submit" value="Buy now" />
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
       <!-- 
         - #COLLECTION
       -->
 
-      <section class="section collection" id="collection" aria-label="collection" data-section>
-        <div class="container">
-
-          <ul class="collection-list">
-
-            <li>
-              <div class="collection-card has-before hover:shine">
-
-                <h2 class="h2 card-title">Summer Collection</h2>
-
-                <p class="card-text">Starting at $17.99</p>
-
-                <a href="./shop/C-1.html" class="btn-link">
-                  <span class="span">Shop Now</span>
-
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-
-                <div class="has-bg-image" style="background-image: url('./assets/images/collection-1.jpg')"></div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="collection-card has-before hover:shine">
-
-                <h2 class="h2 card-title">What’s New?</h2>
-
-                <p class="card-text">Get the glow</p>
-
-                <a href="./shop/C-2.html" class="btn-link">
-                  <span class="span">Discover Now</span>
-
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-
-                <div class="has-bg-image" style="background-image: url('./assets/images/collection-2.jpg')"></div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="collection-card has-before hover:shine">
-
-                <h2 class="h2 card-title">Buy 1 Get 1</h2>
-
-                <p class="card-text">Starting at $7.99</p>
-
-                <a href="./shop/C-3.html" class="btn-link">
-                  <span class="span">Discover Now</span>
-
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-
-                <div class="has-bg-image" style="background-image: url('./assets/images/collection-3.jpg')"></div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
+      
 
       <!-- 
         - #SHOP
@@ -360,21 +254,16 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-01.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-01.jpg" width="540" height="720" loading="lazy"
                     alt="Facial cleanser" class="img-cover">
 
                   <span class="badge" aria-label="20% off">-20%</span>
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
-
-                    <a href="/shop/C-ou-1.html" class="action-btn" aria-label="add to cart">
+                    <a href="C-ou-1.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
-
 
                     <button class="action-btn" aria-label="add to whishlist">
                       <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
@@ -422,16 +311,12 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-02.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-02.jpg" width="540" height="720" loading="lazy"
                     alt="Bio-shroom Rejuvenating Serum" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
-
-                     <a href="/shop/C-ou-2.html" class="action-btn" aria-label="add to cart">
+                    <a href="C-ou-2.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -479,16 +364,12 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-03.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-03.jpg" width="540" height="720" loading="lazy"
                     alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
-
-                     <a href="/shop/C-ou-3.html" class="action-btn" aria-label="add to cart">
+                    <a href="C-ou-3.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -536,16 +417,13 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-04.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-04.jpg" width="540" height="720" loading="lazy"
                     alt="Facial cleanser" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
 
-                     <a href="/shop/C-ou-4.html" class="action-btn" aria-label="add to cart">
+                    <a href="C-ou-4.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -593,18 +471,15 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-05.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-05.jpg" width="540" height="720" loading="lazy"
                     alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
 
                   <span class="badge" aria-label="20% off">-20%</span>
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
 
-                     <a href="/shop/C-ou-5.html" class="action-btn" aria-label="add to cart">
+                    <a href="C-ou-5.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -654,16 +529,13 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-06.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-06.jpg" width="540" height="720" loading="lazy"
                     alt="Facial cleanser" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
 
-                     <a href="/shop/C-ou-6.html" class="action-btn" aria-label="add to cart">
+                    <a href="C-ou-6.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -713,11 +585,9 @@
       </section>
 
 
+      <!-- - #SHOP  --  Under $25----->
 
-
-
-      <!-- - #SHOP--------Under $25 -->
-
+     
       <section class="section shop" id="shop" aria-label="shop" data-section>
         <div class="container">
 
@@ -737,18 +607,15 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-07.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-07.jpg" width="540" height="720" loading="lazy"
                     alt="Facial cleanser" class="img-cover">
 
                   <span class="badge" aria-label="20% off">-20%</span>
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
 
-                     <a href="/shop/Sh-Un-1.html" class="action-btn" aria-label="add to cart">
+                    <a href="Sh-Un-1.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -798,15 +665,12 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-08.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-08.jpg" width="540" height="720" loading="lazy"
                     alt="Bio-shroom Rejuvenating Serum" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
-                     <a href="/shop/Sh-Un-2.html" class="action-btn" aria-label="add to cart">
+                    <a href="Sh-Un-2.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -854,16 +718,13 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-09.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-09.jpg" width="540" height="720" loading="lazy"
                     alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
 
-                     <a href="/shop/Sh-Un-3.html" class="action-btn" aria-label="add to cart">
+                    <a href="Sh-Un-3.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -911,16 +772,12 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-10.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-10.jpg" width="540" height="720" loading="lazy"
                     alt="Facial cleanser" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
-
-                     <a href="/shop/Sh-Un-4.html" class="action-btn" aria-label="add to cart">
+                    <a href="Sh-Un-4.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -968,18 +825,14 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-11.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-11.jpg" width="540" height="720" loading="lazy"
                     alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
 
                   <span class="badge" aria-label="20% off">-20%</span>
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
-
-                     <a href="/shop/Sh-Un-5.html" class="action-btn" aria-label="add to cart">
+                    <a href="Sh-Un-5.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -1029,16 +882,12 @@
               <div class="shop-card">
 
                 <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-01.jpg" width="540" height="720" loading="lazy"
+                  <img src="images/product-01.jpg" width="540" height="720" loading="lazy"
                     alt="Facial cleanser" class="img-cover">
 
                   <div class="card-actions">
 
-                    <!-- <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button> -->
-
-                     <a href="/shop/Sh-Un-6.html" class="action-btn" aria-label="add to cart">
+                    <a href="Sh-Un-6.html" class="action-btn" aria-label="add to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </a>
 
@@ -1095,46 +944,6 @@
         - #BANNER
       -->
 
-      <section class="section banner" aria-label="banner" data-section>
-        <div class="container">
-
-          <ul class="banner-list">
-
-            <li>
-              <div class="banner-card banner-card-1 has-before hover:shine">
-
-                <p class="card-subtitle">New Collection</p>
-
-                <h2 class="h2 card-title">Discover Our Autumn Skincare</h2>
-
-                <a href="#" class="btn btn-secondary">Explore More</a>
-
-                <div class="has-bg-image" style="background-image: url('./assets/images/banner-1.jpg')"></div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="banner-card banner-card-2 has-before hover:shine">
-
-                <h2 class="h2 card-title">25% off Everything</h2>
-
-                <p class="card-text">
-                  Makeup with extended range in colors for every human.
-                </p>
-
-                <a href="#" class="btn btn-secondary">Shop Sale</a>
-
-                <div class="has-bg-image" style="background-image: url('./assets/images/banner-2.jpg')"></div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
 
 
 
@@ -1143,66 +952,6 @@
         - #FEATURE
       -->
 
-      <section class="section feature" aria-label="feature" data-section>
-        <div class="container">
-
-          <h2 class="h2-large section-title">Why Shop with Glowing?</h2>
-
-          <ul class="flex-list">
-
-            <li class="flex-item">
-              <div class="feature-card">
-
-                <img src="./assets/images/feature-1.jpg" width="204" height="236" loading="lazy" alt="Guaranteed PURE"
-                  class="card-icon">
-
-                <h3 class="h3 card-title">Guaranteed PURE</h3>
-
-                <p class="card-text">
-                  All Grace formulations adhere to strict purity standards and will never contain harsh or toxic
-                  ingredients
-                </p>
-
-              </div>
-            </li>
-
-            <li class="flex-item">
-              <div class="feature-card">
-
-                <img src="./assets/images/feature-2.jpg" width="204" height="236" loading="lazy"
-                  alt="Completely Cruelty-Free" class="card-icon">
-
-                <h3 class="h3 card-title">Completely Cruelty-Free</h3>
-
-                <p class="card-text">
-                  All Grace formulations adhere to strict purity standards and will never contain harsh or toxic
-                  ingredients
-                </p>
-
-              </div>
-            </li>
-
-            <li class="flex-item">
-              <div class="feature-card">
-
-                <img src="./assets/images/feature-3.jpg" width="204" height="236" loading="lazy"
-                  alt="Ingredient Sourcing" class="card-icon">
-
-                <h3 class="h3 card-title">Ingredient Sourcing</h3>
-
-                <p class="card-text">
-                  All Grace formulations adhere to strict purity standards and will never contain harsh or toxic
-                  ingredients
-                </p>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
 
 
 
@@ -1210,47 +959,6 @@
       <!-- 
         - #OFFER
       -->
-
-      <section class="section offer" id="offer" aria-label="offer" data-section>
-        <div class="container">
-
-          <figure class="offer-banner">
-            <img src="./assets/images/offer-banner-1.jpg" width="305" height="408" loading="lazy" alt="offer products"
-              class="w-100">
-
-            <img src="./assets/images/offer-banner-2.jpg" width="450" height="625" loading="lazy" alt="offer products"
-              class="w-100">
-          </figure>
-
-          <div class="offer-content">
-
-            <p class="offer-subtitle">
-              <span class="span">Special Offer</span>
-
-              <span class="badge" aria-label="20% off">-20%</span>
-            </p>
-
-            <h2 class="h2-large section-title">Mountain Pine Bath Oil</h2>
-
-            <p class="section-text">
-              Made using clean, non-toxic ingredients, our products are designed for everyone.
-            </p>
-
-            <div class="countdown">
-
-              <span class="time" aria-label="days">15</span>
-              <span class="time" aria-label="hours">21</span>
-              <span class="time" aria-label="minutes">46</span>
-              <span class="time" aria-label="seconds">08</span>
-
-            </div>
-
-            <a href="#" class="btn btn-primary">Get Only $39.00</a>
-
-          </div>
-
-        </div>
-      </section>
 
 
 
@@ -1271,7 +979,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
-                  <img src="./assets/images/blog-1.jpg" width="700" height="450" loading="lazy" alt="Find a Store"
+                  <img src="images/blog-1.jpg" width="700" height="450" loading="lazy" alt="Find a Store"
                     class="img-cover">
                 </figure>
 
@@ -1292,7 +1000,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
-                  <img src="./assets/images/blog-2.jpg" width="700" height="450" loading="lazy" alt="From Our Blog"
+                  <img src="images/blog-2.jpg" width="700" height="450" loading="lazy" alt="From Our Blog"
                     class="img-cover">
                 </figure>
 
@@ -1313,7 +1021,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
-                  <img src="./assets/images/blog-3.jpg" width="700" height="450" loading="lazy" alt="Our Story"
+                  <img src="images/blog-3.jpg" width="700" height="450" loading="lazy" alt="Our Story"
                     class="img-cover">
                 </figure>
 
@@ -1481,10 +1189,10 @@
         </div>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+          <img src="images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
         </a>
 
-        <img src="./assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+        <img src="images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
 
       </div>
 
@@ -1510,7 +1218,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+  <script src="js/script.js" defer></script>
 
   <!-- 
     - ionicon link
@@ -1520,4 +1228,4 @@
 
 </body>
 
-</html>
+</html> 
