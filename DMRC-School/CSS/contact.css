@@ -1,0 +1,347 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+
+ .banner-section {
+   padding: 60px 0 60px 0;
+   overflow: hidden;
+ }
+
+ .banner-content {
+   margin: 0 15%;
+   padding: 50px 50px 20px 50px;
+
+ }
+
+ .banner-label {
+   font-size: 1.15em;
+   letter-spacing: 0.14em;
+   font-weight: 600;
+   margin-bottom: 18px;
+   color: #282f38;
+   opacity: 0.75;
+ }
+
+ .banner-section h1 {
+   font-size: 4vw;
+   font-weight: bold;
+   color: #343d46;
+   margin: 0 0 18px 0;
+   letter-spacing: 0.01em;
+   line-height: 1.08em;
+ }
+
+ .banner-section p {
+   font-size: 1.26em;
+   color: #536073;
+   margin: 0 0 10px 0;
+   font-weight: 400;
+   max-width: 650px;
+ }
+
+ .banner-bg {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: none;
+ }
+
+ .container {
+   display: flex;
+   margin: 0 15%;
+   padding: 50px 50px 20px 50px;
+ }
+
+ .sidebar {
+   flex: 1;
+   margin-right: 50px;
+   border-radius: 12px;
+   padding: 28px 18px;
+ }
+
+ .sidebar section {
+   margin-bottom: 28px;
+ }
+
+ .sidebar h2 {
+   margin-top: 0;
+   font-size: 2em;
+ }
+
+ .email {
+   color: #ffa25b;
+   font-weight: bold;
+   display: block;
+   margin-top: 8px;
+ }
+
+ .social {
+
+   margin-top: 40px;
+
+ }
+
+ .social p {
+   margin-bottom: 10px;
+ }
+
+ .social span {
+   font-size: 1.7em;
+   margin-right: 12px;
+   display: inline-block;
+ }
+
+ .form-area {
+   flex: 2;
+   border-radius: 16px;
+   padding: 35px 32px;
+ }
+
+ form {
+   display: flex;
+   flex-direction: column;
+ }
+
+ label {
+   margin-top: 0px;
+   margin-bottom: 6px;
+   font-size: 1.16em;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ textarea {
+   padding: 12px;
+   margin-bottom: 12px;
+   border: none;
+   border-radius: 8px;
+   font-size: 1em;
+   resize: vertical;
+ }
+
+ .star {
+   color: #f57455;
+ }
+
+ .question {
+   margin: 12px 0 8px 0;
+   font-weight: bold;
+   font-size: 1.13em;
+ }
+
+ input[type="radio"] {
+   margin-right: 7px;
+ }
+
+ button[type="submit"] {
+   margin-top: 30px;
+   padding: 12px 0;
+   border: none;
+   border-radius: 25px;
+   background: #212738;
+   color: #fff;
+   font-size: 1.3em;
+   cursor: pointer;
+ }
+
+ .info-and-map {
+   padding: 40px 0 0 0;
+ }
+
+ .info-row {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 100px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+
+ .info-col h3 {
+   font-size: 1.19em;
+   font-weight: 600;
+   letter-spacing: 0.07em;
+   margin-bottom: 6px;
+ }
+
+ .info-col p {
+   font-size: 1.15em;
+   font-weight: 400;
+   margin-bottom: 10px;
+   color: #212738;
+ }
+
+ .directions {
+   display: inline-block;
+   margin-top: 8px;
+   text-decoration: none;
+   color: #ff9355;
+   font-weight: 600;
+   font-size: 1.08em;
+   transition: color 0.2s;
+ }
+
+ .directions:hover {
+   color: #ff7400;
+ }
+
+ .map-area {
+   width: 100%;
+   overflow: hidden;
+   box-shadow: 0 2px 14px #e3e8eb;
+ }
+.info-col{
+  margin: 60px;
+}
+
+
+
+.hr {
+  display: block;              
+  height: 2px;                 
+  background-color: #ccc;       
+  border: none;                 
+  margin: 20px auto;           
+  width: 100%;                   
+  border-radius: 2px;         
+}
+
+.hr-1 {
+  display: block;              
+  height: 2px;                 
+  background-color: #ccc;       
+  border: none;                 
+  margin: 20px auto;           
+  width: 65%;                   
+  border-radius: 2px;         
+}
+
+
+
+/* ---------- Tablet (≤992px) ---------- */
+@media (max-width: 992px) {
+  .banner-content,
+  .container {
+    margin: 0 5%;
+    padding: 30px 20px;
+  }
+
+  .banner-section h1 {
+    font-size: 6vw; /* fluid heading */
+  }
+
+  .banner-section p {
+    font-size: 1.1em;
+    max-width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .sidebar {
+    margin-right: 0;
+    padding: 20px;
+  }
+
+  .form-area {
+    padding: 25px 20px;
+  }
+
+  .info-row {
+    gap: 50px;
+  }
+}
+
+/* ---------- Mobile (≤768px) ---------- */
+@media (max-width: 768px) {
+  .banner-section {
+    padding: 40px 0;
+  }
+
+  .banner-content {
+    margin: 0 5%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .banner-label {
+    font-size: 1em;
+  }
+
+  .banner-section h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .banner-section p {
+    font-size: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .form-area {
+    width: 100%;
+    padding: 15px;
+  }
+
+  form label {
+    font-size: 1em;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 0.95em;
+    padding: 10px;
+  }
+
+  button[type="submit"] {
+    font-size: 1.1em;
+    padding: 10px 0;
+  }
+
+  .info-row {
+    /* flex-direction: column; */
+    gap: 20px;
+    margin: 40;
+  }
+
+  .info-col {
+    margin: 20px 0;
+  }
+
+  .info-col h3 {
+    font-size: 1em;
+  }
+
+  .info-col p {
+    font-size: 0.95em;
+  }
+
+  .directions {
+    font-size: 1em;
+  }
+
+  .map-area {
+    box-shadow: none;
+  }
+  /* .info-and-map{
+        padding: 0px 0 0 0;
+  } */
+}
