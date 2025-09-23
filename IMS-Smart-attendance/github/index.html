@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1>Glowing-Cream-github-page</h1>
+    <h1>IMS smart</h1>
     <hr>
 
     <fieldset>
@@ -167,3 +167,40 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Last Updated -->
+<p>Last Updated: <span id="lastUpdate"></span></p>
+
+<!-- Live Date & Time -->
+<p>Date: <span id="liveDate"></span> | Time: <span id="liveTime"></span></p>
+
+<script>
+  // Last Updated
+  document.getElementById("lastUpdate").textContent =
+    new Date(document.lastModified).toLocaleString('en-GB');
+
+  // Live Date & Time
+  function updateClock() {
+    const now = new Date();
+    document.getElementById('liveDate').textContent =
+      now.toLocaleDateString('en-GB');
+    document.getElementById('liveTime').textContent =
+      now.toLocaleTimeString();
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+</script>
