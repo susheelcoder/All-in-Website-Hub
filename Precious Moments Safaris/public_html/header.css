@@ -214,6 +214,8 @@
      padding: 0px 0px;
    }
 
+
+
    #page4-right h1 {
      font-size: 2.5rem;
    }
@@ -242,5 +244,18 @@
      width: 100%;
      margin-top: 0;
      margin-right: 20%;
+   }
+ }
+
+
+
+ @media screen and (max-width: 480px) {
+   #page6 {
+     height: 100vh;
+
+   }
+
+   .layout {
+     margin-left: 0px;
    }
  }
