@@ -1,0 +1,92 @@
+ .section-3-up h2 {
+     font-size: 3rem;
+     margin-top: 10px;
+     color: #333;
+     line-height: 1.3;
+ }
+
+ .main-right img.main-img2 {
+     position: absolute;
+     top: 60%;
+     right: 0;
+     left: 40%;
+     width: 340px;
+     height: 440px;
+     border-radius: 30px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+ }
+
+ .section-3-up h2 {
+     font-size: 3rem;
+     margin-top: 10px;
+     color: #333;
+     line-height: 1.3;
+ }
+
+
+ .main-right img.main-img1 {
+     width: 372px;
+     height: 445px;
+     margin-bottom: 20px;
+     display: block;
+     border-radius: 30px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+
+ .page-section {
+     background-color: #f6fdfe;
+     margin: 0 7%;
+     padding: 10px;
+ }
+
+
+ @media (min-width: 1024px) and (max-width: 1440px) {
+
+     /* 💻 Laptop screen styles here */
+     body {
+         font-size: 18px;
+         background-color: #111827;
+     }
+
+     .card {
+         width: 70%;
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 1023px) {
+
+     /* 📘 Tablet styles */
+     body {
+         font-size: 16px;
+     }
+
+     .card {
+         width: 85%;
+     }
+ }
+
+ @media (max-width: 767px) {
+
+     /* 📱 Mobile styles */
+     body {
+         font-size: 14px;
+     }
+
+     .card {
+         width: 95%;
+         padding: 16px;
+     }
+ }
+
+
+ @media (min-width: 1441px) {
+
+     /* 🖥️ Big screen styles */
+     .card {
+         width: 60%;
+     }
+ }
