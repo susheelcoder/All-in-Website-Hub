@@ -706,7 +706,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    max-width: 900px;
+    /* max-width: 900px; */
     margin: 0 auto;
 }
 
@@ -1429,7 +1429,7 @@ body {
 /* ===  footer  ==== */
 
 .footer {
-    margin: 20px 15%;
+    margin:1px 1%;
     padding: 10px;
     color: #000000;
     font-family: 'Outfit', sans-serif;
