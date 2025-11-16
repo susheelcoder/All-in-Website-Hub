@@ -79,7 +79,7 @@ body {
 
 /* === section-1  === */
 .section-1 {
-    /* margin: 0 15%; */
+    margin: 0 2%;
     padding: 40px;
 }
 
@@ -91,22 +91,24 @@ body {
 }
 
 .section-1-left {
-    width: 100%;
+    width: 55%;
     height: 100%;
     display: block;
     overflow: hidden;
     border-radius: 14px;
     box-shadow: 0 6px 18px rgba(12, 18, 30, 0.06);
+    margin-left: 68px;
 }
 
 .section-1-left .main-image {
     display: block;
-    width: 100%;
-    height: 520px;
+    width: 89%;
+    height: 405px;
     object-fit: cover;
     object-position: center;
     border-radius: inherit;
     transition: transform 300ms ease;
+    margin-left: 37px;
 }
 
 .section-1-left .main-image:hover {
@@ -1558,3 +1560,5 @@ body {
         justify-content: center;
     }
 }
+
+
