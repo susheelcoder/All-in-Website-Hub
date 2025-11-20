@@ -1,0 +1,147 @@
+/* Our Vision */
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 0.1px solid; */
+}
+
+body {
+    width: 100%;
+    justify-content: center;
+}
+
+.about-page {
+    max-width: 1000px !important;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+
+}
+
+b {
+    color: rgb(101, 100, 98) !important;
+    font-size: small !important;
+}
+
+p {
+    font-size: larger;
+    /* font-size: 1.4rem; */
+    line-height: 1.3;
+
+}
+
+section {
+    background-color: rgb(208, 210, 210);
+    /* display: flex; */
+}
+
+.Our-Vision {
+    padding: 30px 0;
+
+}
+
+
+
+
+/* footer */
+
+
+.pro-footer {
+
+    max-width: 1000px !important;
+    background: #0c0c0c;
+    color: #d0d0d0;
+    padding: 60px 30px 30px;
+    font-family: "Poppins", sans-serif;
+
+
+    max-width: 1000px !important;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-col h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-col a {
+    display: block;
+    margin: 6px 0;
+    color: #bdbdbd;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+.brand h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.footer-social .icon {
+    font-family: "FontAwesome";
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-social .icon:hover {
+    background: #ffffff;
+    color: #000;
+    transform: translateY(-4px);
+}
+
+/* Bottom */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #222;
+    margin-top: 40px;
+    padding-top: 15px;
+    color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-social {
+        justify-content: flex-start;
+    }
+}
