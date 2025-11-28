@@ -1,0 +1,7 @@
+        :root {
+            --bg-color: #0f172a;       /* Dark Blue/Black Background */
+            --card-bg: #1e293b;        /* Slightly lighter for cards */
+            --text-color: #e2e8f0;     /* White/Grey Text */
+            --accent-color: #38bdf8;   /* Neon Blue (Highlight) */
+            --hover-color: #0ea5e9;    /* Darker Blue on Hover */
+        }
